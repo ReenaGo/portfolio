@@ -1,0 +1,13 @@
+.myWorkContainer {
+    text-align: center;
+
+}
+
+.myWorkContainer div {
+    display: block;
+    margin: 50px;
+}
+
+.projectName {
+    color: white;
+}

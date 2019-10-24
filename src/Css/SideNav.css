@@ -1,0 +1,28 @@
+.sideNav {
+    display: grid;
+    width: 20vw;
+    height: 85vh;
+    grid-template-rows: 2fr 1fr 5fr;
+    margin-left: 20px;
+}
+
+.sideNav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0
+}
+
+.sideNav li {
+    /* display: inline-block;*/
+    margin: 20px; 
+}
+
+.sideNav a {
+    text-decoration: none;
+    color: black;
+}
+
+.sideNav a:hover,
+.sideNav a:active {
+    color: #fa923f;
+}
