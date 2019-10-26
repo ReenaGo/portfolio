@@ -1,6 +1,5 @@
 import React from 'react';
-import { makeStyles } from '@material-ui/core/styles';
-import Paper from '@material-ui/core/Paper';
+import copy from 'clipboard-copy';
 import Typography from '@material-ui/core/Typography';
 import Button from '@material-ui/core/Button';
 
@@ -15,7 +14,7 @@ export default function PaperSheet() {
           size="large"
           color="white"
           style={{
-            backgroundColor: '#005b64',
+            backgroundColor: '#00c9b7',
             boxShadow: "3px 3px 3px black",
             color: "white"
 
@@ -29,7 +28,7 @@ export default function PaperSheet() {
           size="large"
           color="white"
           style={{
-            backgroundColor: '#005b64',
+            backgroundColor: '#00c9b7',
             boxShadow: "3px 3px 3px black",
             color: "white"
           }}>
@@ -38,17 +37,18 @@ export default function PaperSheet() {
       </Typography>
       <br />
       <Typography component="p">
-        <a href={'https://github.com/ReenaGo'}><Button
+        <Button
           size="large"
           color="white"
+          onClick={() => copy('Reenagouldbourne@gmail.com')}
           style={{
-            backgroundColor: '#005b64',
+            backgroundColor: '#00c9b7',
             boxShadow: "3px 3px 3px black",
             color: "white"
-
           }}>
-          email
-        </Button></a>        </Typography>
+          Email
+        </Button>
+      </Typography>
 
     </div>
   );

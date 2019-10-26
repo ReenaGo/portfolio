@@ -27,9 +27,9 @@ export default function MediaCard() {
       <CardActionArea>
         <CardMedia
           className={classes.media}
-          // image={project.image}
+          image={project.image}
           title={project.name}
-          style={{ backgroundImage: `url(${project.image})` }}
+          style={{backgroundSize: "contain"}}
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="h2">
@@ -46,7 +46,7 @@ export default function MediaCard() {
             size="small"
             color="#f5f5f5"
             style={{
-              backgroundColor: '#005b64',
+              backgroundColor: '#00c9b7',
               boxShadow: "5px 5px 5px gray",
               color: "white"
             }}>
@@ -57,7 +57,7 @@ export default function MediaCard() {
           size="small"
           color="#f5f5f5"
           style={{
-            backgroundColor: '#005b64',
+            backgroundColor: '#00c9b7',
             boxShadow: "5px 5px 5px gray",
             color: "white"
           }}>

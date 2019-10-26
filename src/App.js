@@ -76,7 +76,7 @@ const theme = createMuiTheme({
       main: '#005b64',
     },
     secondary: {
-      main: '#c6ff00',
+      main: '#00c9b7',
     },
   },
 });
@@ -122,37 +122,35 @@ export default function NavTabs() {
   };
 
   return (
-    <div className={classes.root} style={{ height: "100vh", width: "100vw", backgroundColor: "transparent" }}>
-      <MuiThemeProvider theme={theme} style={{ height: "80%" }}>
-        <AppBar position="sticky" style={{ backgroundColor: "#45454d" }}>
-          <Tabs
-            variant="fullWidth"
-            value={value}
-            onChange={handleChange}
-            aria-label="nav tabs example"
-          >
-            <LinkTab label="Home" href="/home" {...a11yProps(0)} />
-            <LinkTab label="My Work" href="/mywork" {...a11yProps(1)} />
-            <LinkTab label="More" href="/more" {...a11yProps(2)} />
-            <LinkTab label="Contact" href="/contact" {...a11yProps(3)} />
-          </Tabs>
-        </AppBar>
-      </MuiThemeProvider>
-      <TabPanel value={value} index={0}>
-        <Home />
-      </TabPanel>
-      <TabPanel value={value} index={1}>
-        <Projectcards />
-      </TabPanel>
-      <TabPanel value={value} index={2}>
-        <ControlledExpansionPanels />
-      </TabPanel>
-      <TabPanel value={value} index={3}>
-        <PaperSheet />
-      </TabPanel>
-      <Skills />
-
-
-    </div>
+          <div className={classes.root} style={{ height: "100vh", width: "100vw", backgroundColor: "transparent"}}>
+            <MuiThemeProvider theme={theme} style={{ height: "80%" }}>
+              <AppBar position="sticky" style={{ backgroundColor: "transparent" }}>
+                <Tabs
+                  variant="fullWidth"
+                  value={value}
+                  onChange={handleChange}
+                  aria-label="nav tabs example"
+                >
+                  <LinkTab label="Home" href="/home" {...a11yProps(0)} />
+                  <LinkTab label="My Work" href="/mywork" {...a11yProps(1)} />
+                  <LinkTab label="More" href="/more" {...a11yProps(2)} />
+                  <LinkTab label="Contact" href="/contact" {...a11yProps(3)} />
+                </Tabs>
+              </AppBar>
+            </MuiThemeProvider>
+            <TabPanel value={value} index={0}>
+              <Home />
+            </TabPanel>
+            <TabPanel value={value} index={1}>
+              <Projectcards />
+            </TabPanel>
+            <TabPanel value={value} index={2}>
+              <ControlledExpansionPanels />
+            </TabPanel>
+            <TabPanel value={value} index={3}>
+              <PaperSheet />
+            </TabPanel>
+            <Skills />
+          </div>
   );
 }
