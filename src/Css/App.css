@@ -37,3 +37,28 @@ color: white;
 a {
   text-decoration: none;
 }
+.MuiCardMedia-root.makeStyles-media-100 {
+  height: 234px;
+
+}
+
+.MuiBox-root.MuiBox-root-97 {
+  padding-top: 0px;
+  padding-bottom: 10px;
+  padding-left: 45px;
+  padding-right: 45px;
+}
+
+.MuiBox-root.MuiBox-root-98 {
+  padding-top: 0px;
+  padding-bottom: 10px;
+  padding-left: 45px;
+  padding-right: 45px;
+}
+
+.MuiBox-root.MuiBox-root-169 {
+  padding-top: 30px;
+  padding-bottom: 0px;
+  padding-left: 45px;
+  padding-right: 45px;
+}

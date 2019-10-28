@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  background-color: #45454d;
+  background-image: linear-gradient(to right top, #45454d, #3e4051, #353b55, #2a365a, #18325e);
   /* background-image: url('./Assets/background2.svg');
   background-repeat: no-repeat;
   background-size: cover;
@@ -18,3 +18,4 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+

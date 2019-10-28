@@ -8,6 +8,7 @@ import CardMedia from '@material-ui/core/CardMedia';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 import Cards from './cardinfo';
+import '../Css/Projectcards.css'
 
 
 const useStyles = makeStyles({
@@ -27,9 +28,13 @@ export default function MediaCard() {
       <CardActionArea>
         <CardMedia
           className={classes.media}
-          // image={project.image}
+          image={project.image}
           title={project.name}
-          style={{ backgroundImage: `url(${project.image})` }}
+          style={{backgroundSize: "contain",
+                  marginTop: "10px",
+                  marginLeft: "20px",
+                  marginRight: "20px",
+                  marginBottom: "10px" }}
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="h2">
@@ -46,7 +51,7 @@ export default function MediaCard() {
             size="small"
             color="#f5f5f5"
             style={{
-              backgroundColor: '#005b64',
+              backgroundColor: '#00c9b7',
               boxShadow: "5px 5px 5px gray",
               color: "white"
             }}>
@@ -57,7 +62,7 @@ export default function MediaCard() {
           size="small"
           color="#f5f5f5"
           style={{
-            backgroundColor: '#005b64',
+            backgroundColor: '#00c9b7',
             boxShadow: "5px 5px 5px gray",
             color: "white"
           }}>

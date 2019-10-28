@@ -1,0 +1,35 @@
+.MuiCardContent-root {
+    background-color:#f6f6f6;
+}
+
+.MuiCardMedia-root.makeStyles-media-100 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #d4d7dd;
+}
+
+.MuiCardActions-root.MuiCardActions-spacing {
+    background-color: white;
+}
+
+.MuiPaper-root.MuiPaper-elevation1 {
+    background-color: #d4d7dd;
+
+}
+
+.MuiTypography-root.MuiTypography-h5 {
+    text-align: center;
+
+}
+.MuiTypography-root.MuiTypography-body2 {
+    text-align: center;
+}
+
+.MuiCardActions-root {
+    justify-content: center;
+
+}
+.MuiPaper-root.MuiPaper-elevation1.MuiExpansionPanel-rounded {
+    background-color: white;
+
+}
