@@ -1,10 +1,6 @@
 body {
-  margin: 0;
-  background-image: linear-gradient(to right top, #45454d, #3e4051, #353b55, #2a365a, #18325e);
-  /* background-image: url('./Assets/background2.svg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: 50% 50%; */
+  background-color: #393e46;
+
 
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
@@ -12,6 +8,12 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   width: 100vw;
+  height: 100vh;
+  margin: 0px;
+}
+
+#root {
+  background-color: #393e46;
 }
 
 code {

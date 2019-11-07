@@ -30,7 +30,7 @@ export default function ControlledExpansionPanels() {
   };
 
   return (
-    <div className={classes.root} style={{ height: "70vh", margin: "auto" }}>
+    <div className={classes.root} style={{ height: "68vh", margin: "auto" }}>
       <ExpansionPanel expanded={expanded === 'panel1'} onChange={handleChange('panel1')}>
         <ExpansionPanelSummary
           expandIcon={<ExpandMoreIcon />}
@@ -76,7 +76,7 @@ export default function ControlledExpansionPanels() {
         </ExpansionPanelSummary>
         <ExpansionPanelDetails>
           <Typography style={{ color: 'black' }}>
-            Lead team to manage the collateral calculation and collections from brokers participating in ETF subscriptions and Redemptions from order inception until settlement.
+            Lead team to manage the collateral calculation and collections from brokers participating in ETF subscriptions and redemptions from order inception until settlement.
           </Typography>
         </ExpansionPanelDetails>
       </ExpansionPanel>
@@ -86,7 +86,7 @@ export default function ControlledExpansionPanels() {
           aria-controls="panel2bh-content"
           id="panel2bh-header"
         >
-          <Typography className={classes.heading} style={{ color: 'black' }}>Experieince</Typography>
+          <Typography className={classes.heading} style={{ color: 'black' }}>Experience</Typography>
           <Typography className={classes.secondaryHeading}>
             Rockefeller Financial
           </Typography>

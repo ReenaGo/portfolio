@@ -9,7 +9,7 @@
   grid-template-rows: 6fr 1fr;
   grid-template-columns: 1fr 4fr;
   width: 100vw;
-  height: 100vh;
+  height: 80vh;
 
 }
 .sideNavList {
@@ -44,21 +44,49 @@ a {
 
 .MuiBox-root.MuiBox-root-97 {
   padding-top: 0px;
-  padding-bottom: 10px;
-  padding-left: 45px;
-  padding-right: 45px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
 }
 
 .MuiBox-root.MuiBox-root-98 {
+  
   padding-top: 0px;
   padding-bottom: 10px;
   padding-left: 45px;
   padding-right: 45px;
 }
 
-.MuiBox-root.MuiBox-root-169 {
-  padding-top: 30px;
-  padding-bottom: 0px;
-  padding-left: 45px;
-  padding-right: 45px;
+
+.MuiPaper-root.MuiPaper-elevation1 {
+  background-color: #eeeeee38;
 }
+
+@media screen and (max-width: 600px) {
+  .MuiBox-root.MuiBox-root-169 {
+    padding-top: 80px;
+    padding-bottom: 0px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
+@media screen and (min-width: 1025px) 
+and (max-width: 1700px) {
+  .MuiBox-root.MuiBox-root-169 {
+    padding-top: 80px;
+    padding-bottom: 0px;
+    padding-left: 160px;
+    padding-right: 160px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .MuiBox-root.MuiBox-root-169 {
+    padding-top: 80px;
+    padding-bottom: 0px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+

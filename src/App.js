@@ -124,7 +124,7 @@ export default function NavTabs() {
   return (
           <div className={classes.root} style={{ height: "100vh", width: "100vw", backgroundColor: "transparent"}}>
             <MuiThemeProvider theme={theme} style={{ height: "80%" }}>
-              <AppBar position="sticky" style={{ backgroundImage: "linear-gradient(to left bottom, #45454d, #3e4051, #353b55, #2a365a, #18325e)" }}>
+              <AppBar position="sticky" style={{ backgroundColor: "#232931" }}>
                 <Tabs
                   variant="fullWidth"
                   value={value}

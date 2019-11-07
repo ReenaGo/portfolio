@@ -2,55 +2,49 @@ import React from 'react';
 import copy from 'clipboard-copy';
 import Typography from '@material-ui/core/Typography';
 import Button from '@material-ui/core/Button';
+import { makeStyles } from '@material-ui/core/styles';
+import Paper from '@material-ui/core/Paper';
+import LinkedInIcon from '@material-ui/icons/LinkedIn';
+import GitHubIcon from '@material-ui/icons/GitHub';
+import EmailIcon from '@material-ui/icons/Email';
 
+
+const useStyles = makeStyles(theme => ({
+  root: {
+    padding: theme.spacing(3, 2),
+  },
+}));
 
 
 export default function PaperSheet() {
+  const classes = useStyles();
 
   return (
-    <div style={{ height: "70vh", textAlign: "center", backgroundColor: "transparent" }}>
-      <Typography component="p">
-        <a href={'www.linkedin.com/in/reena-gouldbourne-205a20a0'}><Button
-          size="large"
-          color="white"
-          style={{
-            backgroundColor: '#00c9b7',
-            boxShadow: "3px 3px 3px black",
-            color: "white"
+    <div style={{ height: "70vh", textAlign: "center", backgroundColor: "#eeeeee54;", width: "50vw", margin: "auto", marginTop: "30px" }}>
 
-          }}>
-          LinkedIn
-        </Button></a>
-      </Typography>
-      <br />
+      <Paper className={classes.root}>
+        <Typography variant="h5" component="h3">
+          Location: Atlanta, GA
+
+        </Typography>
+       
+        <br />
       <Typography component="p">
-        <a href={'https://github.com/ReenaGo'}><Button
-          size="large"
-          color="white"
-          style={{
-            backgroundColor: '#00c9b7',
-            boxShadow: "3px 3px 3px black",
-            color: "white"
-          }}>
-          GitHub
-        </Button></a>
+        <a href={'https://linkedin.com/in/reena-gouldbourne-205a20a0'} style={{color: "white"}}><LinkedInIcon/></a>
       </Typography>
-      <br />
       <Typography component="p">
-        <Button
-          size="large"
-          color="white"
-          onClick={() => copy('Reenagouldbourne@gmail.com')}
-          style={{
-            backgroundColor: '#00c9b7',
-            boxShadow: "3px 3px 3px black",
-            color: "white"
-          }}>
-          Email
-        </Button>
+        <a href={'https://github.com/ReenaGo'} style={{color: "white"}}><GitHubIcon/></a>
       </Typography>
+      <Typography component="p">
+      <a  href={"mailto:reenagouldbourne@gmail.com"} style={{color: "white", cursor: "pointer"}}>
+        <EmailIcon/>
+        </a>
+      </Typography>
+      </Paper>
 
     </div>
   );
 }
 
+
+// onClick={() => copy('Reenagouldbourne@gmail.com')}
