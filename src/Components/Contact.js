@@ -25,10 +25,7 @@ export default function PaperSheet() {
       <Paper className={classes.root}>
         <Typography variant="h5" component="h3">
           Location: Atlanta, GA
-
         </Typography>
-       
-        <br />
       <Typography component="p">
         <a href={'https://linkedin.com/in/reena-gouldbourne-205a20a0'} style={{color: "white"}}><LinkedInIcon/></a>
       </Typography>
@@ -39,6 +36,9 @@ export default function PaperSheet() {
       <a  href={"mailto:reenagouldbourne@gmail.com"} style={{color: "white", cursor: "pointer"}}>
         <EmailIcon/>
         </a>
+      </Typography>
+      <Typography component="h4">
+        Thanks for visiting :)
       </Typography>
       </Paper>
 
