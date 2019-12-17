@@ -206,12 +206,12 @@
 
 @keyframes envelopeFlapUp {
     0% {opacity: 0}
-    100% {opacity:100%;}
+    100% {opacity:1;}
 }
 
 @keyframes envelopeFlapFade {
-    0% {opacity: 100%}
-    100% {opacity: 0%;}
+    0% {opacity: 1}
+    100% {opacity: 0;}
 }
 
 #envelopeFlap {
