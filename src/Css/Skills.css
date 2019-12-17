@@ -1,31 +1,218 @@
+@media only screen and (max-width: 1024px) {
+    .skillSVG {
+    width: 100vw;
+    height: 28vh;
+    }
 
-
-.skills ul {
-    list-style: none;
-    margin: 0;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    padding-left: 0px;
+   
 }
 
-.skills li {
-    display: inline-block;
-    padding: 5px;    
+@media only screen and (min-width: 1025px) {
+    .skillSVG {
+    width: 100vw;
+    height: 61vh;
+    }
+  
 }
+
+
+.toolkit {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.336);
+    border-radius: 5%;
+    color:white;
+    line-height: normal;
+    
+}
+
+.devtools {
+    background-color: white;
+    width: 100%;
+}
+
+
+
+
+
+
+/* @media screen and (max-width: 600px) {
+
+svg {
+    width: 250px;
+}
+}
+@media screen and (max-width: 1024px) {
+
+    svg {
+        width: 400px;
+
+    }
+} */
+
 
 .skills {
-    text-decoration: none;
-    color: #f5f5f5;
-    background-color: #232931;
-    margin: auto;
+    height: 100vh;
+    width: 100vw
+}
+
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to { opacity: 1; } 
+  }
+
+#tool1 {
+animation: fadein 2s forwards;
+}
+
+#tool2 {
+opacity: 0;
+animation: fadein 2s forwards;
+animation-delay: .1s;
+}
+#tool3 {
+opacity: 0;
+animation: fadein 2s forwards;
+animation-delay: .2s;  
+}
+#tool4 {
+    opacity: 0;
+    animation: fadein 2s forwards;
+    animation-delay: .3s;  
+}
+#tool5 {
+    opacity: 0;
+    animation: fadein 2s forwards;
+    animation-delay: .4s;  
+}
+#tool6 {
+    opacity: 0;
+    animation: fadein 2s forwards;
+    animation-delay: .5s;  
+}
+#tool7 {
+    opacity: 0;
+    animation: fadein 2s forwards;
+    animation-delay: .6s;  
+}
+#tool8 {
+    opacity: 0;
+    animation: fadein 2s forwards;
+    animation-delay: .7s;  
+}
+#tool9 {
+    opacity: 0;
+    animation: fadein 2s forwards;
+    animation-delay: .8s;  
+}
+#tool10 {
+    opacity: 0;
+    animation: fadein 2s forwards;
+    animation-delay: .9s;  
+}
+#tool11 {
+    opacity: 0;
+    animation: fadein 2s forwards;
+    animation-delay: 1s;  
+}
+#tool12 {
+    opacity: 0;
+    animation: fadein 2s forwards;
+    animation-delay: 1.2s;  
+
+}
+
+#tool13 {
+    opacity: 0;
+    animation: fadein 2s forwards;
+    animation-delay: 1.4s;  
+}
+#tool14 {
+    opacity: 0;
+    animation: fadein 2s forwards;
+    animation-delay: 1.6s;  
+}
+#tool15 {
+    opacity: 0;
+    animation: fadein 2s forwards;
+    animation-delay: 1.8s;  
+}
+#tool16 {
+    opacity: 0;
+    animation: fadein 2s forwards;
+    animation-delay: 2s;  
+}
+#tool17 {
+    opacity: 0;
+    animation: fadein 2s forwards;
+    animation-delay: 2.2s;  
+}
+#tool18 {
+    opacity: 0;
+    animation: fadein 2s forwards;
+    animation-delay: 2.4s;  
+}
+
+@media only screen and (max-width: 1024px) {
+    .toolcontainer {
+        width: 100vw;
+        height: 41vh;
+        margin: 3vh auto;    
+    }
+
+    .experiencesvgContainer {
+        background-color: #73c7c9
+      }
+
+    .experiencesvg {
+        height: 44vh;
+        width: 100vw;
+    }  
+    .toolsvg {
+        height: 96%;
+        width: 100%;
+    }
+    
+}
+
+@media only screen and (min-width: 1025px) {
+    .toolcontainer {
+        width: 100vw;
+        height: 50vh;
+        margin: 3vh auto;    
+    }
+    .toolsvg {
+        height: 96%;
+        width: 100%;
+    }
+    .experiencesvg {
+        height: 44vh;
+        width: 100vw;
+      }
+
+    
+  
+}
+
+.experience {
+    background-color: white;
+}
+
+
+
+.experiencesvgContainer {
+    background-color: #73c7c9
+  }
+
+.skillContainer {
     text-align: center;
-
+    align-content: center;
 }
 
-img {
-    height: 30px;
-}
 
-h6 {
-    margin: 0px;
-}
+
+
+
+
+
+

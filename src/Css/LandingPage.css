@@ -1,0 +1,233 @@
+.landingPagesvg {
+    width: 90%;
+    height: 90%;
+
+}
+
+@media only screen and (max-width: 1024px) {
+    .landingPagesvg {
+        width: 90%;
+        height: 78%;
+    
+    }
+    
+}
+
+@media only screen and (min-width: 1025px) {
+    .landingPagesvg {
+        width: 90%;
+        height: 90%;
+    
+    }
+  
+}
+.ladyBugsvg {
+    width: 100%;
+    height: 100%;
+
+}
+
+.landingPageContainer {
+    background-color: rgb(115, 199, 201);
+    padding: 4vh 5vw;
+    height: 100vh;
+    text-align: center;
+
+}
+/* .envelopeContainer {
+    height: 100vh;
+    position: absolute;
+
+} */
+.ladyBugContainer {
+    position: absolute;
+    margin-top: 64vh;
+    margin-left: 31vw
+}
+
+#Letter {
+    opacity: 0;
+}
+
+@keyframes letterFadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; } 
+}
+
+#Letter {
+    opacity: 0;
+    animation: letterFadeIn 1s forwards;
+    animation-delay: 3.2s;
+    animation-timing-function: linear;
+}
+
+
+
+@keyframes rotateWingsR {
+   
+    /* 5% {transform: rotate(30deg);}
+    10% {transform: rotate(-30deg);}
+    15% {transform: rotate(30deg);}
+    20% {transform: rotate(-30deg);}
+    25% {transform: rotate(30deg);}
+    30% {transform: rotate(-30deg);}
+    35% {transform: rotate(30deg);}
+    40% {transform: rotate(-30deg);}
+    45% {transform: rotate(30deg);}
+    50% {transform: rotate(-30deg);}
+    55% {transform: rotate(30deg);}
+    60% {transform: rotate(-30deg);}
+    65% {transform: rotate(30deg);}
+    70% {transform: rotate(-30deg);}
+    75% {transform: rotate(30deg);}
+    80% {transform: rotate(-30deg);}
+    85% {transform: rotate(30deg);}
+    90% {transform: rotate(-30deg);}
+    95% {transform: rotate(30deg);}
+    100% {transform: rotate(-30deg);}  */
+
+    
+    /* 0% {transform: rotate(-30deg);
+        transform: translateX(10px)}
+    5% {transform: rotate(30deg);}
+    10% {transform: rotate(-30deg);}
+    15% {transform: rotate(30deg);}
+    20% {transform: rotate(-30deg);}
+    25% {transform: rotate(30deg);}
+    30% {transform: rotate(-30deg);}
+    35% {transform: rotate(30deg);}
+    40% {transform: rotate(-30deg);}
+    45% {transform: rotate(30deg);}
+    50% {transform: rotate(-30deg);}
+    55% {transform: rotate(30deg);}
+    60% {transform: rotate(-30deg);}
+    65% {transform: rotate(30deg);}
+    70% {transform: rotate(-30deg);}
+    75% {transform: rotate(30deg);}
+    80% {transform: rotate(-30deg);}
+    85% {transform: rotate(30deg);}
+    90% {transform: rotate(-30deg);}
+    95% {transform: rotate(30deg);}
+    100% {transform: rotate(-30deg);} */
+
+
+    0% {transform: rotate3d(0, 0, -1, 30deg);}
+    5% {transform: rotate3d(0, 0, -1, 25deg);}
+    10% {transform: rotate3d(0, 0, -1, 30deg);}
+    15% {transform: rotate3d(0, 0, -1, 25deg);}
+    20% {transform: rotate3d(0, 0, -1, 30deg);}
+    25% {transform: rotate3d(0, 0, -1, 25deg);}
+    30% {transform: rotate3d(0, 0, -1, 30deg);}
+    35% {transform: rotate3d(0, 0, -1, 25deg);}
+    40% {transform: rotate3d(0, 0, -1, 30deg);}
+    45% {transform: rotate3d(0, 0, -1, 25deg);}
+    50% {transform: rotate3d(0, 0, -1, 30deg);}
+    55% {transform: rotate3d(0, 0, -1, 25deg);}
+    60% {transform: rotate3d(0, 0, -1, 30deg);}
+    65% {transform: rotate3d(0, 0, -1, 25deg);}
+    70% {transform: rotate3d(0, 0, -1, 30deg);}
+    75% {transform: rotate3d(0, 0, -1, 25deg);}
+    80% {transform: rotate3d(0, 0, -1, 30deg);}
+    85% {transform: rotate3d(0, 0, -1, 25deg);}
+    90% {transform: rotate3d(0, 0, -1, 30deg);}
+    95% {transform: rotate3d(0, 0, -1, 25deg);}
+    100% {transform: rotate3d(0, 0, -1, 30deg);}
+
+    
+
+}
+
+
+
+@keyframes rotateWingsL {
+    /* 0% {transform: rotate(50deg);}
+    5% {transform: rotate(20deg);}
+    10% {transform: rotate(50deg);}
+    15% {transform: rotate(20deg);}
+    20% {transform: rotate(50deg);}
+    25% {transform: rotate(20deg);}
+    30% {transform: rotate(50deg);}
+    35% {transform: rotate(20deg);}
+    40% {transform: rotate(50deg);}
+    45% {transform: rotate(20deg);}
+    50% {transform: rotate(50deg);}
+    55% {transform: rotate(20deg);}
+    60% {transform: rotate(50deg);}
+    65% {transform: rotate(20deg);}
+    70% {transform: rotate(50deg);}
+    75% {transform: rotate(20deg);}
+    80% {transform: rotate(50deg);}
+    85% {transform: rotate(20deg);}
+    90% {transform: rotate(50deg);}
+    95% {transform: rotate(20deg);}
+    100% {transform: rotate(50deg);} */
+
+    0% {transform: rotate3d(0, 0, 1, 33deg);}
+    5% {transform: rotate3d(0, 0, 1, 20deg);}
+    10% {transform: rotate3d(0, 0, 1, 33deg);}
+    15% {transform: rotate3d(0, 0, 1, 20deg);}
+    20% {transform: rotate3d(0, 0, 1, 33deg);}
+    25% {transform: rotate3d(0, 0, 1, 20deg);}
+    30% {transform: rotate3d(0, 0, 1, 33deg);}
+    35% {transform: rotate3d(0, 0, 1, 20deg);}
+    40% {transform: rotate3d(0, 0, 1, 33deg);}
+    45% {transform: rotate3d(0, 0, 1, 20deg);}
+    50% {transform: rotate3d(0, 0, 1, 33deg);}
+    55% {transform: rotate3d(0, 0, 1, 20deg);}
+    60% {transform: rotate3d(0, 0, 1, 33deg);}
+    65% {transform: rotate3d(0, 0, 1, 20deg);}
+    70% {transform: rotate3d(0, 0, 1, 33deg);}
+    75% {transform: rotate3d(0, 0, 1, 20deg);}
+    80% {transform: rotate3d(0, 0, 1, 33deg);}
+    85% {transform: rotate3d(0, 0, 1, 20deg);}
+    90% {transform: rotate3d(0, 0, 1, 33deg);}
+    95% {transform: rotate3d(0, 0, 1, 20deg);}
+    100% {transform: rotate3d(0, 0, 1, 33deg);}
+}
+
+
+
+#landingLadyR {
+    animation-delay: .3s;
+    animation-duration: 1.3s;
+    animation-iteration-count: 2;
+    animation-name: rotateWingsR;
+    transform-origin: 10% -15%;
+
+}
+
+
+#landingLadyL {
+    animation-delay: .3s;
+    animation-duration: 1.3s;
+    animation-iteration-count: 2;
+    animation-name: rotateWingsL;
+    /* transform-origin: -% 4%; */
+
+}
+
+@keyframes envelopeFlapUp {
+    0% {opacity: 0}
+    100% {opacity:100%;}
+}
+
+@keyframes envelopeFlapFade {
+    0% {opacity: 100%}
+    100% {opacity: 0%;}
+}
+
+#envelopeFlap {
+    animation: envelopeFlapFade .5s forwards;
+    animation-delay: 2.6s;
+    animation-timing-function: ease;
+    transform-style: preserve-3d;
+
+}
+
+#envelopeFlapAfter {
+    opacity: 0;
+    animation: envelopeFlapUp .5s forwards;
+    animation-delay: 2.7s;
+    animation-timing-function: ease;
+
+}

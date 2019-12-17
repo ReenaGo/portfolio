@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="687.672" height="762.133" viewBox="0 0 687.672 762.133">
+  <defs>
+    <filter id="Path_7" x="0" y="0" width="687.672" height="762.133" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Polygon_4" data-name="Polygon 4" transform="translate(9 6)" opacity="0.998">
+    <g transform="matrix(1, 0, 0, 1, -9, -6)" filter="url(#Path_7)">
+      <path id="Path_7-2" data-name="Path 7" d="M1105.009,556.946l668.319-393.612,1.353,744.133Z" transform="translate(-1096.01 -157.33)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

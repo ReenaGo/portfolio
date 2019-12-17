@@ -1,0 +1,93 @@
+<svg class="toolsvg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="3047" height="1456" viewBox="0 0 3047 1456">
+  <defs>
+    <filter id="Path_1" x="947.349" y="0.782" width="968.811" height="449.96" filterUnits="userSpaceOnUse">
+      <feOffset dy="14" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-Web_1920_2">
+      <rect width="3047" height="1456"/>
+    </clipPath>
+  </defs>
+  <g id="Web_1920_2" data-name="Web 1920 – 2" clip-path="url(#clip-Web_1920_2)">
+    <rect width="3047" height="1456" fill="#fff"/>
+    <g id="Group_1" data-name="Group 1" transform="translate(-204.113 -62.937)">
+      <g id="wrench" transform="translate(1160.204 190.694) rotate(-8)">
+        <g transform="matrix(0.99, 0.14, -0.14, 0.99, -929.01, -259.57)" filter="url(#Path_1)">
+          <path id="Path_1-2" data-name="Path 1" d="M912.722,233.674c-10.754-13.084-70.413,11.452-98.027-.459-14-6.039-16.28-29.306-17.728-39.017-1.284-8.611-9.108-32.807,5.951-39.945,25.069-11.888,88.525-21.49,92.934-33.7,15.076-41.732-43.641-78.2-87.851-71.011-47.993,7.807-84.785,44.907-96.87,91.6L181.189,68.527A106.657,106.657,0,0,0,93.868.615c-34.239-4.079-87.062,12.5-74.648,39.1,6.182,13.25,63.894,7.616,85,23.969,10.7,8.289,7.065,27.795,5.981,36.059-.962,7.325-.007,28.922-14.8,31.114-24.631,3.652-82.04-3.8-88.81,5.085-23.151,30.376,19.032,74.223,59.144,79a109.682,109.682,0,0,0,99.628-41.91l564.809,77.4c25.73,37.3,69.593,58.517,115.408,51.064C883.311,295.355,934.317,259.944,912.722,233.674Z" transform="translate(956.35 127.72) rotate(-7.95)" fill="#d5d6db"/>
+        </g>
+        <text id="Whats_in_my_tool_kit_" data-name="Whats in my tool kit?" transform="matrix(0.99, 0.141, -0.142, 0.99, 179.971, 139.278)" stroke="#000" stroke-width="2" font-size="49" font-family="HelveticaNeue, Helvetica Neue" letter-spacing="0.118em"><tspan x="0" y="0">Whats in my tool kit?</tspan></text>
+      </g>
+      <g id="Group_13" data-name="Group 13" transform="translate(732.688 729.937)">
+        <ellipse id="Ellipse_1" data-name="Ellipse 1" cx="19.5" cy="17" rx="19.5" ry="17" transform="translate(0.425 20)" fill="#73c7c9"/>
+        <text id="tool1" transform="translate(72.425 58)" font-size="59" font-family="KhmerMN, Khmer MN"><tspan x="0" y="0">Java</tspan></text>
+      </g>
+      <g id="Group_14" data-name="Group 14" transform="translate(732.688 854.937)">
+        <ellipse id="Ellipse_1-2" data-name="Ellipse 1" cx="19.5" cy="17" rx="19.5" ry="17" transform="translate(0.425 20)" fill="#73c7c9"/>
+        <text id="tool2" transform="translate(72.425 58)" font-size="59" font-family="KhmerMN, Khmer MN"><tspan x="0" y="0">JavaScript</tspan></text>
+      </g>
+      <g id="Group_15" data-name="Group 15" transform="translate(736.688 979.937)">
+        <ellipse id="Ellipse_1-3" data-name="Ellipse 1" cx="19.5" cy="17" rx="19.5" ry="17" transform="translate(0.425 20)" fill="#73c7c9"/>
+        <text id="tool3" transform="translate(72.425 58)" font-size="59" font-family="KhmerMN, Khmer MN"><tspan x="0" y="0">Node.js</tspan></text>
+      </g>
+      <g id="Group_16" data-name="Group 16" transform="translate(732.688 1104.937)">
+        <ellipse id="Ellipse_1-4" data-name="Ellipse 1" cx="19.5" cy="17" rx="19.5" ry="17" transform="translate(0.425 20)" fill="#73c7c9"/>
+        <text id="tool4" transform="translate(72.425 58)" font-size="59" font-family="KhmerMN, Khmer MN"><tspan x="0" y="0">Express</tspan></text>
+      </g>
+      <g id="Group_17" data-name="Group 17" transform="translate(732.688 1229.937)">
+        <ellipse id="Ellipse_1-5" data-name="Ellipse 1" cx="19.5" cy="17" rx="19.5" ry="17" transform="translate(0.425 20)" fill="#73c7c9"/>
+        <text id="tool5" transform="translate(72.425 58)" font-size="59" font-family="KhmerMN, Khmer MN"><tspan x="0" y="0">React/Redux</tspan></text>
+      </g>
+      <g id="Group_18" data-name="Group 18" transform="translate(724.688 1354.937)">
+        <ellipse id="Ellipse_1-6" data-name="Ellipse 1" cx="19.5" cy="17" rx="19.5" ry="17" transform="translate(0.425 20)" fill="#73c7c9"/>
+        <text id="tool6" transform="translate(72.425 58)" font-size="59" font-family="KhmerMN, Khmer MN"><tspan x="0" y="0">Restful API</tspan></text>
+      </g>
+      <g id="Group_19" data-name="Group 19" transform="translate(1528.4 705.937)">
+        <ellipse id="Ellipse_1-7" data-name="Ellipse 1" cx="19.5" cy="17" rx="19.5" ry="17" transform="translate(-0.287 20)" fill="#73c7c9"/>
+        <text id="tool8" transform="translate(71.713 58)" font-size="59" font-family="KhmerMN, Khmer MN"><tspan x="0" y="0">GitHub</tspan></text>
+      </g>
+      <g id="Group_20" data-name="Group 20" transform="translate(1524.893 842.937)">
+        <ellipse id="Ellipse_1-8" data-name="Ellipse 1" cx="19.5" cy="17" rx="19.5" ry="17" transform="translate(0.22 20)" fill="#73c7c9"/>
+        <text id="tool9" transform="translate(72.22 58)" font-size="59" font-family="KhmerMN, Khmer MN"><tspan x="0" y="0">SQL</tspan></text>
+      </g>
+      <g id="Group_21" data-name="Group 21" transform="translate(1528.619 979.937)">
+        <ellipse id="Ellipse_1-9" data-name="Ellipse 1" cx="19.5" cy="17" rx="19.5" ry="17" transform="translate(0.494 20)" fill="#73c7c9"/>
+        <text id="tool10" transform="translate(72.494 58)" font-size="59" font-family="KhmerMN, Khmer MN"><tspan x="0" y="0">HTML5</tspan></text>
+      </g>
+      <g id="Group_22" data-name="Group 22" transform="translate(1536.267 1104.937)">
+        <ellipse id="Ellipse_1-10" data-name="Ellipse 1" cx="19.5" cy="17" rx="19.5" ry="17" transform="translate(-0.154 20)" fill="#73c7c9"/>
+        <text id="tool11" transform="translate(71.846 58)" font-size="59" font-family="KhmerMN, Khmer MN"><tspan x="0" y="0">Css3</tspan></text>
+      </g>
+      <g id="Group_23" data-name="Group 23" transform="translate(1528.286 1229.937)">
+        <ellipse id="Ellipse_1-11" data-name="Ellipse 1" cx="19.5" cy="17" rx="19.5" ry="17" transform="translate(-0.173 20)" fill="#73c7c9"/>
+        <text id="tool12" transform="translate(71.827 58)" font-size="59" font-family="KhmerMN, Khmer MN"><tspan x="0" y="0">Adobe XD</tspan></text>
+      </g>
+      <g id="Group_24" data-name="Group 24" transform="translate(1525.198 1354.937)">
+        <ellipse id="Ellipse_1-12" data-name="Ellipse 1" cx="19.5" cy="17" rx="19.5" ry="17" transform="translate(-0.085 20)" fill="#73c7c9"/>
+        <text id="tool13" transform="translate(71.915 58)" font-size="59" font-family="KhmerMN, Khmer MN"><tspan x="0" y="0">Adobe Illustrator</tspan></text>
+      </g>
+      <g id="Group_25" data-name="Group 25" transform="translate(2297.113 729.937)">
+        <ellipse id="Ellipse_1-13" data-name="Ellipse 1" cx="19.5" cy="17" rx="19.5" ry="17" transform="translate(0 20)" fill="rgba(115,199,201,0.33)"/>
+        <text id="tool14" transform="translate(72 58)" font-size="59" font-family="KhmerMN, Khmer MN"><tspan x="0" y="0">Microsoft Excel</tspan></text>
+      </g>
+      <g id="Group_26" data-name="Group 26" transform="translate(2297.113 854.937)">
+        <ellipse id="Ellipse_1-14" data-name="Ellipse 1" cx="19.5" cy="17" rx="19.5" ry="17" transform="translate(0 20)" fill="rgba(115,199,201,0.33)"/>
+        <text id="tool15" transform="translate(72 58)" font-size="59" font-family="KhmerMN, Khmer MN"><tspan x="0" y="0">ETF Operations</tspan></text>
+      </g>
+      <g id="Group_27" data-name="Group 27" transform="translate(2297.113 979.937)">
+        <ellipse id="Ellipse_1-15" data-name="Ellipse 1" cx="19.5" cy="17" rx="19.5" ry="17" transform="translate(0 20)" fill="rgba(115,199,201,0.33)"/>
+        <text id="tool16" transform="translate(72 58)" font-size="59" font-family="KhmerMN, Khmer MN"><tspan x="0" y="0">Mutual Funds</tspan></text>
+      </g>
+      <g id="Group_28" data-name="Group 28" transform="translate(2297.113 1104.937)">
+        <ellipse id="Ellipse_1-16" data-name="Ellipse 1" cx="19.5" cy="17" rx="19.5" ry="17" transform="translate(0 20)" fill="rgba(115,199,201,0.33)"/>
+        <text id="tool17" transform="translate(72 58)" font-size="59" font-family="KhmerMN, Khmer MN"><tspan x="0" y="0">Financial Services</tspan></text>
+      </g>
+      <g id="Group_29" data-name="Group 29" transform="translate(2297.113 1229.937)">
+        <ellipse id="Ellipse_1-17" data-name="Ellipse 1" cx="19.5" cy="17" rx="19.5" ry="17" transform="translate(0 20)" fill="rgba(115,199,201,0.33)"/>
+        <text id="tool18" transform="translate(72 58)" font-size="59" font-family="KhmerMN, Khmer MN"><tspan x="0" y="0">Managerial</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>

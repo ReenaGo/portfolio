@@ -2,9 +2,9 @@ const Cards = [
     {
         image: "piccollage.jpg",
         name: "Pic Collage",
-        description: "PicCollage allows a user to search, upload and edit images, then place onto a downloadable collage. I worked on designing the app, template layouts and used react/redux to manage uploads. In addition I worked on the download feature using the HTMLtoCanvas library.",
-        github: "https://github.com/tperdue/vision-board",
-        livesite: "https://vision-board-51991.firebaseapp.com/"
+        description: "PicCollage allows a user to search, upload and edit images, then place onto a downloadable collage. Technology used to build the app includes JavaScript, React/Redux, Google Firebase, HTML, CSS, UploadCare API, HTMLtoCanvas library.",
+        github: "https://github.com/ReenaGo/vision-board",
+        livesite: "https://piccollage-7d61c.firebaseapp.com"
     },
 
     {

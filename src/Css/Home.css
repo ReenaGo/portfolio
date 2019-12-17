@@ -17,22 +17,22 @@ color: #d9eeec;
 }
 
 @media screen and (min-width: 1025px) 
-and (max-width: 1700px) {
-  svg {
-      width: 60px;
+and (max-width: 2000px) {
+  .profileSVG {
+      /* width: 60px; */
       align-self: center;
       justify-self: center;
 
   } 
   .homeContainer {
-    background-image: url('../Assets/newbackground.svg');
+    background-image: url('../Assets/verynewbackground.svg');
     background-size: cover;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 50%; 
     text-align: center;
-    height: 96vh;
-    width: 100vw
+    height: 100vh;
+    width: 100vw;
   }
 
   .animate1 {
@@ -48,8 +48,8 @@ and (max-width: 1700px) {
 
 @media only screen and (min-width: 601px)
 and (max-width: 1024px) {
-  svg {
-      width: 60px;
+  .profileSVG {
+      /* width: 60px; */
       align-self: center;
       justify-self: center;
 
@@ -93,8 +93,8 @@ and (max-width: 1024px) {
 
 
 @media screen and (max-width: 600px) {
-    svg {
-        width: 30px;
+  .profileSVG {
+        /* width: 30px; */
         align-self: center;
         justify-self: center;
     } 
@@ -113,7 +113,7 @@ and (max-width: 1024px) {
       background-size: cover;
       background-position: 50% 50%; 
       text-align: center;
-      height: 77vh;
+      height: 100vh;
       width: 100vw
   }
   .animation {
@@ -149,7 +149,7 @@ h1 {
 p {
   color: #d9eeec;
 }
-
+/* 
 svg #flower6 {
     animation: rotation 1s infinite linear;
     transform-origin: 736px 353px;
@@ -260,5 +260,5 @@ svg #flower6 {
     to {
       transform: rotate(359deg);
     }
-  }
+  } */
 

@@ -32,3 +32,221 @@
     background-color: white;
 
 }
+
+.projectContainers {
+    height: 100vh;
+    width: 100vw;
+    margin: auto;
+    text-align: center;
+}
+
+.projContainers {
+    text-align: center;
+    padding-top: 5vh;
+
+}
+
+.projTitle{
+    font-family: 'Cantarell', sans-serif;
+}
+
+
+
+
+
+@media only screen and (max-width: 1024px) {
+    .projectSVG {
+    width: 100vw;
+    height: 35vh;
+    }
+    .projectDescription {
+        font-size: x-small;
+    }
+    .projTitle{
+        font-size: 5vw;
+    }
+
+    .pc1 {
+        background-color: white;
+        height: 90vh;
+    
+    }
+    .pc2 {
+        background-color: #D5D6DB;
+        height: 92vh;
+        padding-top: 8vh;
+
+    
+    
+    }
+    .pc3 {
+        background-color: white;
+        height: 92vh;
+        padding-top: 8vh;
+
+    } 
+
+
+}
+
+
+@media only screen and (min-width: 1025px) {
+    .projectSVG {
+        height: 60vh;
+        width: 100vw;
+  
+    }
+    .projectDescription {
+        font-size: medium;
+
+    }
+    .projTitle{
+        font-size: 3vw;
+    }
+
+    .pc1 {
+        background-color: white;
+        height: 100vh;
+    
+    }
+    .pc2 {
+        background-color: #D5D6DB;
+        height: 100vh;
+    
+    
+    }
+    .pc3 {
+        background-color: white;
+        height: 100vh;
+    
+    } 
+
+}
+
+
+
+
+.picCollageButtons {
+    display: flex;
+    text-align: center;
+    align-content: center;
+    width: 40vw;
+    margin: auto;  
+    padding: 2vh 0vw;
+    justify-content: center;
+
+ 
+
+}
+
+.picCollageButtons a {
+    display: inline-block;
+
+
+}
+/* .project1Link1 {
+
+} */
+.project1Link2 {
+    padding-left: 5vw;
+
+}
+
+
+.projectDescription {
+    text-align: center;
+    width: 66vw;
+    margin: auto;
+    border-radius: 17px;
+    padding: 1vh;
+    color: black;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 500;
+
+}
+
+@keyframes projectImageFadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; } 
+}
+
+#jamsession-2 {
+    opacity: 0;
+    animation: projectImageFadeIn 2s forwards;
+    animation-delay: 1.5s;
+    animation-timing-function: ease
+}
+
+
+/* 
+@keyframes rotateWingsR {
+    0% {transform: rotate3d(1, 0, 1, -50deg);}
+    5% {transform: rotate3d(1, 0, 1, 0deg);}
+    10% {transform: rotate3d(1, 0, 1, -50deg);}
+    15% {transform: rotate3d(1, 0, 1, 0deg);}
+    20% {transform: rotate3d(1, 0, 1, -50deg);}
+    25% {transform: rotate3d(1, 0, 1, 0deg);}
+    30% {transform: rotate3d(1, 0, 1, -50deg);}
+    35% {transform: rotate3d(1, 0, 1, 0deg);}
+    40% {transform: rotate3d(1, 0, 1, -50deg);}
+    45% {transform: rotate3d(1, 0, 1, 0deg);}
+    50% {transform: rotate3d(1, 0, 1, -50deg);}
+    55% {transform: rotate3d(1, 0, 1, 0deg);}
+    60% {transform: rotate3d(1, 0, 1, -50deg);}
+    65% {transform: rotate3d(1, 0, 1, 0deg);}
+    70% {transform: rotate3d(1, 0, 1, -50deg);}
+    75% {transform: rotate3d(1, 0, 1, 0deg);}
+    80% {transform: rotate3d(1, 0, 1, -50deg);}
+    85% {transform: rotate3d(1, 0, 1, 0deg);}
+    90% {transform: rotate3d(1, 0, 1, -50deg);}
+    95% {transform: rotate3d(1, 0, 1, 0deg);}
+    100% {transform: rotate3d(1, 0, 1, -50deg);}
+
+    
+
+}
+
+
+
+@keyframes rotateWingsL {
+    0% {transform: rotate3d(1, 0, 1, 50deg);}
+    5% {transform: rotate3d(1, 0, 1, 0deg);}
+    10% {transform: rotate3d(1, 0, 1, 50deg);}
+    15% {transform: rotate3d(1, 0, 1, 0deg);}
+    20% {transform: rotate3d(1, 0, 1, 50deg);}
+    25% {transform: rotate3d(1, 0, 1, 0deg);}
+    30% {transform: rotate3d(1, 0, 1, 50deg);}
+    35% {transform: rotate3d(1, 0, 1, 0deg);}
+    40% {transform: rotate3d(1, 0, 1, 50deg);}
+    45% {transform: rotate3d(1, 0, 1, 0deg);}
+    50% {transform: rotate3d(1, 0, 1, 50deg);}
+    55% {transform: rotate3d(1, 0, 1, 0deg);}
+    60% {transform: rotate3d(1, 0, 1, 50deg);}
+    65% {transform: rotate3d(1, 0, 1, 0deg);}
+    70% {transform: rotate3d(1, 0, 1, 50deg);}
+    75% {transform: rotate3d(1, 0, 1, 0deg);}
+    80% {transform: rotate3d(1, 0, 1, 50deg);}
+    85% {transform: rotate3d(1, 0, 1, 0deg);}
+    90% {transform: rotate3d(1, 0, 1, 50deg);}
+    95% {transform: rotate3d(1, 0, 1, 0deg);}
+    100% {transform: rotate3d(1, 0, 1, 50deg);}
+
+
+} */
+
+
+/* 
+#Group_98 {
+    animation-delay: .5s;
+    animation-duration: 1s;
+    animation-name: rotateWingsR;
+    transform-origin: 29% -79%;
+
+}
+#Group_99 {
+    animation-delay: .5s;
+    animation-duration: 1s;
+    animation-name: rotateWingsL;
+    transform-origin: 29% -79%;
+
+} */
