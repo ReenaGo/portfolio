@@ -18,7 +18,7 @@ export default function Contact() {
   const classes = useStyles();
 
   return (
-    <div style={{ height: "70vh", textAlign: "center", backgroundColor: "#eeeeee54;", width: "50vw", margin: "auto", marginTop: "30px" }}>
+    <div style={{ height: "83vh", textAlign: "center", backgroundColor: "#eeeeee54;", width: "50vw", margin: "auto", marginTop: "30px" }}>
 
       <Paper className={classes.root} style={{backgroundColor: "#ffffff"}}>
         <div>
