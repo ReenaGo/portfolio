@@ -190,7 +190,7 @@
 #landingLadyR {
     animation-delay: .3s;
     animation-duration: 1.3s;
-    animation-iteration-count: 2;
+    animation-iteration-count: 1;
     animation-name: rotateWingsR;
     transform-origin: 10% -15%;
 
@@ -200,7 +200,7 @@
 #landingLadyL {
     animation-delay: .3s;
     animation-duration: 1.3s;
-    animation-iteration-count: 2;
+    animation-iteration-count: 1;
     animation-name: rotateWingsL;
     /* transform-origin: -% 4%; */
 
