@@ -57,7 +57,7 @@
 #Letter {
     opacity: 0;
     animation: letterFadeIn 1s forwards;
-    animation-delay: 3.2s;
+    animation-delay: 2.5s;
     animation-timing-function: linear;
 }
 
